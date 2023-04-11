@@ -1,0 +1,52 @@
+.filmesPrincipais {
+    display: block;
+    background: linear-gradient(90deg, rgb(180, 48, 252) 1%, rgb(125, 34, 190) 51%, rgb(81, 15, 146) 100%);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img, .atropos {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.linha1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 90px;
+    gap: 30px;
+}
+
+.linha2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+@media (max-width: 720px){
+    .linha1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linha2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
